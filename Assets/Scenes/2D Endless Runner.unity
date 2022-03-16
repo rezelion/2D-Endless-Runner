@@ -1353,7 +1353,7 @@ MonoBehaviour:
   - {fileID: 7833293052532301936, guid: 3ed5e41a6a5e5414888e0edf03bec819, type: 3}
   - {fileID: 6369186095904894514, guid: 0c8bb6bf4a1e48447bef613118fd9b5e, type: 3}
   - {fileID: 90510721747439769, guid: 17ba6a289f06a5c419aba31ff927416f, type: 3}
-  terrainTemplateWidth: 12.5
+  terrainTemplateWidth: 12.8
   gameCamera: {fileID: 519420031}
   areaStartOffset: -10
   areaEndOffset: 5

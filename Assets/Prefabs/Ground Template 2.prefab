@@ -435,7 +435,8 @@ GameObject:
   - component: {fileID: 6369186095904894512}
   - component: {fileID: 6369186095904894515}
   - component: {fileID: 6369186095904894514}
-  m_Layer: 0
+  - component: {fileID: 6720973054977585045}
+  m_Layer: 8
   m_Name: Ground Template 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -496,6 +497,117 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c416767b4cf73024c924132065d04f83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!66 &6720973054977585045
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6369186095904894513}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths:
+  - m_Collider: {fileID: 6369186095542465843}
+    m_ColliderPaths:
+    - - X: -36599992
+        Y: -73600000
+      - X: -49399992
+        Y: -73600000
+      - X: -49399992
+        Y: -86400000
+      - X: -36599992
+        Y: -86400000
+  - m_Collider: {fileID: 6369186094851984247}
+    m_ColliderPaths:
+    - - X: -23800006
+        Y: -73600000
+      - X: -36600004
+        Y: -73600000
+      - X: -36600004
+        Y: -86400000
+      - X: -23800006
+        Y: -86400000
+  - m_Collider: {fileID: 6369186094880929947}
+    m_ColliderPaths:
+    - - X: -10999998
+        Y: -73600000
+      - X: -23799996
+        Y: -73600000
+      - X: -23799996
+        Y: -86400000
+      - X: -10999998
+        Y: -86400000
+  - m_Collider: {fileID: 6369186095091451201}
+    m_ColliderPaths:
+    - - X: 1800009
+        Y: -73600000
+      - X: -10999991
+        Y: -73600000
+      - X: -10999991
+        Y: -86400000
+      - X: 1800009
+        Y: -86400000
+  - m_Collider: {fileID: 6369186096702538754}
+    m_ColliderPaths:
+    - - X: 53002000
+        Y: -73600000
+      - X: 40202004
+        Y: -73600000
+      - X: 40202004
+        Y: -86400000
+      - X: 53002000
+        Y: -86400000
+  - m_Collider: {fileID: 6369186096541536095}
+    m_ColliderPaths:
+    - - X: 65802008
+        Y: -73600000
+      - X: 53002008
+        Y: -73600000
+      - X: 53002008
+        Y: -86400000
+      - X: 65802008
+        Y: -86400000
+  - m_Collider: {fileID: 6369186095969799294}
+    m_ColliderPaths:
+    - - X: 78601992
+        Y: -73600000
+      - X: 65801996
+        Y: -73600000
+      - X: 65801996
+        Y: -86400000
+      - X: 78601992
+        Y: -86400000
+  m_CompositePaths:
+    m_Paths:
+    - - {x: -4.939999, y: -8.64}
+      - {x: -2.3800006, y: -8.64}
+      - {x: -2.3800006, y: -7.36}
+      - {x: -4.939999, y: -7.36}
+    - - {x: -1.0999998, y: -7.36}
+      - {x: -2.3799996, y: -7.36}
+      - {x: -2.3799996, y: -8.64}
+      - {x: -1.0999998, y: -8.64}
+    - - {x: 0.1800009, y: -7.36}
+      - {x: -1.0999991, y: -7.36}
+      - {x: -1.0999991, y: -8.64}
+      - {x: 0.1800009, y: -8.64}
+    - - {x: 5.3002, y: -7.36}
+      - {x: 4.0202003, y: -7.36}
+      - {x: 4.0202003, y: -8.64}
+      - {x: 5.3002, y: -8.64}
+    - - {x: 5.300201, y: -8.64}
+      - {x: 7.8601995, y: -8.64}
+      - {x: 7.8601995, y: -7.36}
+      - {x: 5.300201, y: -7.36}
+  m_VertexDistance: 0.0005
 --- !u!1 &6369186095969799292
 GameObject:
   m_ObjectHideFlags: 0
